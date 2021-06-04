@@ -1,0 +1,184 @@
+header {
+  width: 100%;
+}
+
+header .container-header {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+
+header .container-header h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+header .container-header nav {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  z-index: 10;
+}
+
+header .container-header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+header .container-header nav ul li {
+  padding: 0.75rem 1rem;
+  border-radius: 0 0 10px 10px;
+  background-color: rgba(255, 255, 255, 0.158);
+  font-weight: 700;
+  color: #111;
+  border: 2px solid #fff;
+  border-top: none;
+  cursor: pointer;
+  -webkit-transition: 0.4s background-color;
+  transition: 0.4s background-color;
+}
+
+header .container-header nav ul li:hover {
+  background-color: white;
+}
+
+header .container-header nav ul .active {
+  background-color: white;
+}
+
+.hero-section {
+  width: 100%;
+}
+
+.hero-section .container-hero {
+  width: 100%;
+  height: 65vh;
+}
+
+.hero-section .container-hero img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.restaurant-info-section {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  width: 100%;
+}
+
+.restaurant-info-section .container-section {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.restaurant-info-section .grid .left h2 {
+  font-size: 2.75rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.05rem;
+}
+
+.restaurant-info-section .grid .left p {
+  margin-top: 1.5rem;
+  line-height: 1.75rem;
+  font-size: 1.1rem;
+}
+
+.restaurant-info-section .grid .left p em {
+  font-weight: 700;
+}
+
+.restaurant-info-section .grid .right .info-row h2 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+
+.restaurant-info-section .grid .right .info-row p {
+  font-size: 1.1rem;
+}
+
+.restaurant-info-section .grid .right .info-row p strong {
+  text-transform: uppercase;
+}
+
+.picture-section {
+  width: 100%;
+}
+
+.picture-section .container-picture {
+  width: 100%;
+  height: 40vh;
+}
+
+.picture-section .container-picture img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+footer {
+  background-color: #111;
+}
+
+footer .container-footer {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .container-footer p {
+  font-size: 1rem;
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+footer .container-footer .copyright {
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Sigmar One", cursive;
+}
+
+h2 {
+  font-family: "Teko", sans-serif;
+}
+
+p,
+li {
+  font-family: "Oxygen", sans-serif;
+}
+
+body {
+  width: 100%;
+}
+
+main {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */

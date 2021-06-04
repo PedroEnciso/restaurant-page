@@ -3,50 +3,61 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>My Restaurant</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&family=Sigmar+One&family=Teko:wght@500&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!--<div id="content"></div>-->
     <main>
-      <section>
-        <div class="container">
+      <header>
+        <div class="container-header">
+          <h1>Restaurant Name</h1>
           <nav>
             <ul>
-              <li>Home</li>
+              <li class="active">Home</li>
               <li>Menu</li>
               <li>Contact Us</li>
             </ul>
           </nav>
+        </div>
+      </header>
+
+      <section class="hero-section">
+        <div class="container-hero">
           <img src="./img/hero.jpg" alt="trendy street mural." />
-          <h1>Restaurant Name</h1>
         </div>
       </section>
 
-      <section>
-        <div class="container2">
+      <section class="restaurant-info-section">
+        <div class="container-section">
           <div class="grid">
             <div class="left">
               <h2>
-                Welcome to My Restaurant where were serving plates and throwing
-                shade.
+                My Restaurant, where we're serving plates and throwing shade.
               </h2>
               <p>
-                Welcome to My Restaurant, we serve authentic style food that is
+                Come on down to My Restaurant, we serve authentic style food
+                that is
                 <em>way</em> overpriced. Thats OK because we are located in a
-                newly gentrified area and white people don't sdeem to mind as
+                newly gentrified area and white people don't seem to mind as
                 long as we look trendy!
               </p>
             </div>
             <div class="right">
-              <div>
+              <div class="info-row">
                 <h2>phone</h2>
                 <p>(123) 456 - 789</p>
               </div>
-              <div>
+              <div class="info-row">
                 <h2>address</h2>
                 <p>some random address</p>
               </div>
-              <div>
+              <div class="info-row">
                 <h2>hours</h2>
                 <p><strong>Mon-Sat: </strong> 6-9PM</p>
               </div>
@@ -55,16 +66,20 @@
         </div>
       </section>
 
-      <section>
-        <img src="./img/footer.jpg" alt="trendy picture of shoes." />
+      <section class="picture-section">
+        <div class="container-picture">
+          <img src="./img/footer.jpg" alt="trendy picture of shoes." />
+        </div>
       </section>
 
       <footer>
-        <div class="container3">
+        <div class="container-footer">
           <p>Some random street address</p>
           <p>(123) 456 - 789</p>
           <p>contactus@email.com</p>
-          <p>&copy 2021 My Restaurant, branded by Pedro Enciso</p>
+          <p class="copyright">
+            &copy 2021 My Restaurant, branded by Pedro Enciso
+          </p>
         </div>
       </footer>
     </main>
