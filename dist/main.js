@@ -1,1 +1,1 @@
-console.log("hi everyone :)");
+(()=>{"use strict";console.log("hi everyone :)"),console.log("hello from the homepage!")})();
