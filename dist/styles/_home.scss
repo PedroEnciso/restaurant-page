@@ -7,6 +7,7 @@ header {
     position: relative;
 
     h1 {
+      margin-top: 1rem;
       text-align: center;
       margin-bottom: 1rem;
     }
@@ -107,6 +108,44 @@ header {
   }
 }
 
+@media only screen and (min-width: 768px) {
+  .restaurant-info-section {
+    .container-section {
+      width: 75%;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 66% 33%;
+      .left {
+        p {
+          margin-top: 1.5rem;
+        }
+      }
+      .right {
+        justify-self: end;
+        .info-row {
+          h2 {
+            margin-bottom: 1.5rem;
+            margin-top: 0rem;
+          }
+          p {
+            margin-bottom: 1.5rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .restaurant-info-section {
+    .container-section {
+      width: 60%;
+    }
+  }
+}
+
 .picture-section {
   width: 100%;
 
@@ -126,7 +165,7 @@ footer {
   background-color: #111;
 
   .container-footer {
-    padding-top: 2rem;
+    padding-top: 2.5rem;
     padding-bottom: 2rem;
     display: flex;
     flex-direction: column;
