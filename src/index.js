@@ -1,3 +1,3 @@
 import loadHomePage from "./home";
 
-loadHomePage();
+//loadHomePage();
