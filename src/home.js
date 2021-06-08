@@ -1,5 +1,7 @@
 const loadHomePage = () => {
   const contentDiv = document.getElementById("content");
+  contentDiv.innerHTML = "";
+
   const main = document.createElement("main");
   contentDiv.appendChild(main);
 
@@ -36,12 +38,12 @@ const createHeader = (main) => {
 
   const menu = document.createElement("li");
   menu.innerHTML = "menu";
-  home.setAttribute("id", "menu");
+  menu.setAttribute("id", "menu");
   ul.appendChild(menu);
 
   const contact = document.createElement("li");
   contact.innerHTML = "contact us";
-  home.setAttribute("id", "contact");
+  contact.setAttribute("id", "contact");
   ul.appendChild(contact);
 };
 
@@ -169,4 +171,4 @@ const createFooter = (main) => {
   div.appendChild(copyright);
 };
 
-export default loadHomePage;
+export { loadHomePage, createHeader, createFooter };
