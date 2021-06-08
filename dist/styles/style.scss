@@ -1,5 +1,6 @@
 @import "home";
 @import "menu";
+@import "contact";
 
 * {
   margin: 0;
@@ -10,7 +11,9 @@ h1 {
   font-family: "Sigmar One", cursive;
 }
 
-h2 {
+h2,
+h3,
+h4 {
   font-family: "Teko", sans-serif;
 }
 

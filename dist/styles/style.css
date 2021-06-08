@@ -290,6 +290,95 @@ footer .container-footer .copyright {
   }
 }
 
+.contact-section {
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.contact-section .contact-section-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.contact-section .contact-section-container .grid {
+  width: 100%;
+}
+
+.contact-section .contact-section-container .grid .contact-info h3 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact-section .contact-section-container .grid .contact-info p {
+  font-size: 1.1rem;
+}
+
+.contact-section .contact-section-container .grid .contact-info .info-line {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.contact-section .contact-section-container .grid .contact-info .info-line h4 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.contact-section .contact-section-container .grid .contact-info .info-line p {
+  font-size: 1.1rem;
+}
+
+.contact-section .contact-section-container .grid .contact-image {
+  width: 100%;
+  height: 30vh;
+}
+
+.contact-section .contact-section-container .grid .contact-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .contact-section .contact-section-container {
+    width: 85%;
+  }
+  .contact-section .contact-section-container .grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+  }
+  .contact-section .contact-section-container .grid .contact-image {
+    height: 70%;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .contact-section .contact-section-container {
+    width: 75%;
+  }
+  .contact-section .contact-section-container .grid {
+    grid-gap: 5rem;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -299,7 +388,9 @@ h1 {
   font-family: "Sigmar One", cursive;
 }
 
-h2 {
+h2,
+h3,
+h4 {
   font-family: "Teko", sans-serif;
 }
 
