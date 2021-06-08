@@ -42,7 +42,7 @@ const createHeader = (main) => {
   ul.appendChild(menu);
 
   const contact = document.createElement("li");
-  contact.innerHTML = "contact us";
+  contact.innerHTML = "contact";
   contact.setAttribute("id", "contact");
   ul.appendChild(contact);
 };
